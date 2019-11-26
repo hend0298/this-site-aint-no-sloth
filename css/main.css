@@ -3,5 +3,18 @@ html {
 }
 
 h1 {
+  color: #fff;
   font-family: Georgia;
+  top: 15px;
+  right: 110px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border-top: solid 2px rgb(28, 14, 0);
+  border-bottom: solid 2px rgb(28, 14, 0);
 }
