@@ -5,8 +5,7 @@ html {
 h1 {
   color: #fff;
   font-family: Georgia;
-  top: 15px;
-  right: 110px;
+  text-shadow: 1px 1px 1px black;
 }
 
 .img-flex {
@@ -17,4 +16,20 @@ h1 {
 .border {
   border-top: solid 2px rgb(28, 14, 0);
   border-bottom: solid 2px rgb(28, 14, 0);
+}
+
+figcaption {
+  font-family: Georgia;
+}
+
+a {
+  color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-image: url("../images/sloth-bg.png")
+  }
+
 }
