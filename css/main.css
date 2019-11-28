@@ -14,8 +14,8 @@ h1 {
 }
 
 .border {
-  border-top: solid 2px rgb(28, 14, 0);
-  border-bottom: solid 2px rgb(28, 14, 0);
+  border-top: solid 2px rgba(28, 14, 0, 1);
+  border-bottom: solid 2px rgba(28, 14, 0, 1);
 }
 
 figcaption {
@@ -26,10 +26,15 @@ a {
   color: #000;
 }
 
-@media only screen and (min-width: 60em) {
+.content {
+  background-color: #fff;
+}
 
-  html {
-    background-image: url("../images/sloth-bg.png")
+  body {
+    background: url("../images/sloth-bg.svg") center center repeat;
+    background-color: #bea586;
+    background-size: 48px;
+
   }
 
 }
