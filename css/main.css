@@ -5,7 +5,9 @@ html {
 h1 {
   color: #fff;
   font-family: Georgia;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
+  top: .5em;
+  left: 1em;
 }
 
 .img-flex {
@@ -14,8 +16,8 @@ h1 {
 }
 
 .border {
-  border-top: solid 2px rgba(28, 14, 0, 1);
-  border-bottom: solid 2px rgba(28, 14, 0, 1);
+  border-top: solid 2px rgba(28, 14, 0, .5);
+  border-bottom: solid 2px rgba(28, 14, 0, .5);
 }
 
 figcaption {
@@ -30,11 +32,12 @@ a {
   background-color: #fff;
 }
 
-  body {
-    background: url("../images/sloth-bg.svg") center center repeat;
-    background-color: #bea586;
-    background-size: 48px;
+body {
+  background: linear-gradient(to top, #000, transparent);
+}
 
-  }
-
+body {
+  background: url("../images/sloth-bg.svg") center center repeat;
+  background-color: #bea586;
+  background-size: 48px;
 }
